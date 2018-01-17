@@ -1,0 +1,30 @@
+.about-container
+{
+
+    .about-section
+    {
+
+        .about-img
+        {
+            position: relative;
+            width: 300px;
+            float: left;
+        }
+
+        .about-section-title
+        {
+            font-size: 26px;
+
+            .about-section-title-bold
+            {
+                font-weight: bold;
+                color: red;
+            }
+        }
+
+        .about-section-text
+        {
+            font-size: 18px;
+        }
+    }
+}

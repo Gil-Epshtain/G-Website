@@ -1,0 +1,35 @@
+<!-- *** Header *** -->
+<div class="header-container">
+  <div class="background-image"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Logo -->
+    <a class="navbar-brand" href="/homepage">
+      <img src="/assets/images/icons/gil/Gil [Pokemon-dark].png" class="header-logo"/>
+    </a>
+
+    <!-- Toggle button (small screens only) -->
+    <button class="navbar-toggler" 
+            type="button"
+            (click)="isHeaderCollapsed = !isHeaderCollapsed"
+            [attr.aria-expanded]="!isHeaderCollapsed" 
+            aria-controls="navbarHeaderCategories" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Categories (collapse list) -->
+    <div class="collapse navbar-collapse" [ngbCollapse]="isHeaderCollapsed" id="navbarHeaderCategories">
+      <div class="navbar-nav">         
+        <!-- class="active" routerLink="{{ page.routeLink }}" routerLinkActive="active" -->
+        <div class="nav-item nav-link header-nav-item active">
+          Active
+        </div>
+        <a *ngFor="let page of _pages"
+              [href]="page.elId"
+              class="nav-item nav-link header-nav-item">
+          {{ page.title }}
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>

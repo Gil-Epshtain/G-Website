@@ -1,0 +1,32 @@
+.header-container
+{
+    background-color: #232323;
+
+    .background-image
+    {
+        position: absolute;
+        background-image: url("~assets/images/photos/home-background-1920x1080-filter.jpg");
+        background-size: cover;
+        height: 100vh;                
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .header-logo
+    {
+        width: 90px;
+        height: 90px;
+    }
+
+    .header-nav-item
+    {
+    }
+    
+    .header-nav-item.active
+    {
+        color: rgb(101, 205, 214);
+        font-weight: bold;
+        border-bottom: 2px solid rgb(101, 205, 214)
+    }
+}

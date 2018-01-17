@@ -1,0 +1,26 @@
+.home-page-container
+{   
+    height: calc(100vh - 116px); // 116px is header height
+
+    .home-page-content
+    {
+        position: relative;
+        left: 100px;
+        top: 60px;
+    
+        .home-page-content-title
+        {
+            font-size: 50px;
+        }
+
+        .home-page-content-text
+        {
+            font-size: 26px;
+        }
+
+        .home-page-content-text-small
+        {
+            font-size: 13px;
+        }
+    }
+}

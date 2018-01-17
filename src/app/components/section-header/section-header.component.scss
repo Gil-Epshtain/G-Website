@@ -1,0 +1,28 @@
+.section-header-container
+{
+    display: block;
+    position: relative;
+    padding: 50px 55px 0;
+
+    .section-header-title-marker
+    {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        width: 40px;
+        height: 27px;
+        background-color: rgb(196, 160, 79);;
+    }
+
+    .section-header-title
+    {
+        font-family: Anton;
+        font-size: 32px;
+    }
+
+    .section-header-text
+    {
+        font-family: Acme;
+        font-size: 18px;
+    }
+}

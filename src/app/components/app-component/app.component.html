@@ -1,0 +1,13 @@
+<!-- *** Application *** -->
+<div class="container application-container">
+  <!-- head -->
+  <g-header></g-header>
+
+  <!-- body -->
+  <div *ngFor="let page of _pages">
+    <g-page [page]="page"></g-page>
+  </div>
+  
+  <!-- foot -->
+  <g-footer></g-footer>    
+</div>

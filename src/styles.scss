@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Bootstrap Styles
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Bootstrap custom styles
+@import './app/style/customBootstrap.scss';
+
+// Fonts
+@import './app/style/fonts.scss';
+
+// Colors
+@import './app/style/colors.scss';
+
+// App Styles
+@import './app/style/appStyle.scss';

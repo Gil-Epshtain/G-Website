@@ -1,0 +1,14 @@
+<!-- *** Footer *** -->
+<div class="footer-container">
+  <div class="footer-social-media">
+    <!-- soical media icons -->
+    <div *ngFor="let icon of _socialIcons" ngbTooltip="{{ icon.title }}" placement="bottom" class="social-media-icon">
+      <a href="{{ icon.url }}" target="_blank">
+        <img [src]="icon.logo" alt="{{ icon.title }}" class="social-media-icon-img" />
+      </a>
+    </div>
+  </div>
+  <div class="text-center footer-text">
+      Developed and Designed by Gil Epshtain &copy; 2018, All rights reserved.
+  </div>
+</div>

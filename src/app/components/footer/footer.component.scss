@@ -1,0 +1,43 @@
+.footer-container
+{
+    background-color: #252222;
+    
+    display: block;
+    position: relative;
+    padding: 5px 15px 20px;
+
+    .footer-social-media
+    {
+        display: block;
+        position: relative;
+        text-align: center;
+        
+        .social-media-icon
+        {
+            display: inline-block;
+            position: relative;
+            padding: 15px;
+            border: 1px solid rgba(0, 0, 0, 0); // add transperent border so the hover-borders wan't change the side of the footer
+
+            .social-media-icon-img
+            {
+                width: 30px;
+                height: 30px;
+            }
+        }
+        .social-media-icon:hover
+        {
+            border: 1px solid rgb(101, 205, 214);
+        }
+    }
+
+    .footer-text
+    {
+        display: block;
+        position: relative;
+        top: 5px;
+        font-family: gloria-hallelujah;
+        font-size: 12px;
+        
+    }
+}
