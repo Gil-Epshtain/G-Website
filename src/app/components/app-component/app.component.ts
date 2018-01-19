@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { PagesService } from './../../services/pages/pages.service';
+import { StringsService } from './../../services/strings/strings.service';
+import { PagesService }   from './../../services/pages/pages.service';
 
 @Component({
   selector: 'app-root',
@@ -11,13 +12,16 @@ export class AppComponent implements OnInit
 {
   private _pages: any[];
 
-  public constructor(private _pagesService: PagesService) 
+  public constructor(
+    private _stringsService: StringsService,
+    private _pagesService: PagesService) 
   {
     console.log("App.component - ctor");
   }
   
   public ngOnInit() 
   {
+    this._stringsService.setLocal('en-US');
     this._pages = this._pagesService.getPages();
   }
 }

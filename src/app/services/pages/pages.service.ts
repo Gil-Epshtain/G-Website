@@ -21,32 +21,32 @@ export interface IPageItem
 const pagesList: IPageItem[] = 
 [
   {
-    title: "Home",
+    title: "_Home_",
     ngComponent: HomePageComponent,
     data: {}
   },
   {
-    title: "About",
+    title: "_About_",
     ngComponent: AboutPageComponent,
     bgColor: "rgb(53, 53, 53)"
   },
   {
-    title: "Projects",
+    title: "_Projects_",
     ngComponent: ProjectsPageComponent,
     bgColor: "rgb(47, 47, 47)"
   },
   {
     ngComponent: ServicesPageComponent,
-    title: "Services",  
+    title: "_Services_",  
     bgColor: "rgb(44, 44, 44)"
   },
   {
-    title: "Employers",
+    title: "_Employers_",
     ngComponent: EmployersPageComponent,
     bgColor: "rgb(39, 39, 39)"
   },
   {
-    title: "Contact",
+    title: "_Contact_",
     ngComponent: ContactPageComponent,
     bgColor: "rgb(30, 30, 30)"
   }

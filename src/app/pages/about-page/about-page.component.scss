@@ -1,14 +1,18 @@
+@import './../../style/colors.scss';
+
 .about-container
 {
-
     .about-section
     {
-
-        .about-img
+        .about-img-container
         {
-            position: relative;
-            width: 300px;
-            float: left;
+            padding-bottom: 8px;
+            
+            .about-img
+            {
+                position: relative;
+                width: 100%;
+            }
         }
 
         .about-section-title
@@ -18,7 +22,7 @@
             .about-section-title-bold
             {
                 font-weight: bold;
-                color: red;
+                color: $color-turquoise;
             }
         }
 

@@ -1,8 +1,9 @@
 <!-- *** Header *** -->
-<div class="header-container">
-  <div class="background-image"></div>
+<div [ngClass]="{ 'header-black': !_isBackgroundTransparent }"
+      class="header-container">  
 
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-md navbar-dark container g-header-navbar">
+
     <!-- Logo -->
     <a class="navbar-brand" href="/homepage">
       <img src="/assets/images/icons/gil/Gil [Pokemon-dark].png" class="header-logo"/>
@@ -19,15 +20,15 @@
     
     <!-- Categories (collapse list) -->
     <div class="collapse navbar-collapse" [ngbCollapse]="isHeaderCollapsed" id="navbarHeaderCategories">
-      <div class="navbar-nav">         
+      <div class="navbar-nav g-header-navbar-nav">         
         <!-- class="active" routerLink="{{ page.routeLink }}" routerLinkActive="active" -->
-        <div class="nav-item nav-link header-nav-item active">
+        <div class="nav-item nav-link g-header-nav-item active">
           Active
         </div>
         <a *ngFor="let page of _pages"
               [href]="page.elId"
-              class="nav-item nav-link header-nav-item">
-          {{ page.title }}
+              class="nav-item nav-link g-header-nav-item">
+          {{ _strings[page.title] }}
         </a>
       </div>
     </div>

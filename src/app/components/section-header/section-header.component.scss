@@ -1,3 +1,5 @@
+@import './../../style/colors.scss';
+
 .section-header-container
 {
     display: block;
@@ -7,17 +9,18 @@
     .section-header-title-marker
     {
         position: absolute;
-        top: 54px;
+        top: 58px;
         left: 0;
-        width: 40px;
-        height: 27px;
-        background-color: rgb(196, 160, 79);;
+        width: 49px;
+        height: 43px;
+        
+        background-color: $color-gold;
     }
 
     .section-header-title
     {
         font-family: Anton;
-        font-size: 32px;
+        font-size: 50px;
     }
 
     .section-header-text

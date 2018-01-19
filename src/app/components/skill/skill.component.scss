@@ -1,0 +1,24 @@
+.skill-container
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    .skill-title
+    {
+        font-family: KaushanScript;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .skill-text
+    {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    .skill-progress
+    {
+        height: 45px;
+        font-size: 30px;
+    }
+}

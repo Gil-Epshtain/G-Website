@@ -1,29 +1,56 @@
 <!-- *** About Page *** -->
-<div class="about-container">
+<div class="about-container container">
 
   <!-- About -->
-  <section-header [title]="txtAboutTitle">
-  </section-header>
+  <div class="about-section row">
+    <section-header [title]="_strings._AboutTitle_" class="col-12">
+    </section-header>
 
-  <div class="about-section">
-    <img src="/assets/images/photos/about-photo-blur.jpg" class="about-img">
-    <h1 class="about-section-title">
-        Hello everybody, I’m <span class="about-section-title-bold">Gil Epshtain</span> Web and Mobile Developer, Expert of the Client Side.        
-    </h1>
-    <p class="about-section-text">
-        I’ve been developing websites all the way back to the dark ages of Web1.0, Netscape and Internet Explorer 1.x. Already back then I fell in love in the Internet and its ecosystem. 
-        Since then I have finished my academic degree and I have become a professional web developer. Adding to this my passion for designing and creative thinking will make me the perfect choice for your next big web project.         
-    </p>
+    <div class="about-img-container col-lg-6 col-xl-5">
+      <img src="/assets/images/photos/about-photo-blur.jpg" class="about-img">
+    </div>
+
+    <div class="col-lg-6 col-xl-7">
+      <h1 class="about-section-title">
+          {{ _strings._HelloIAm_ }} 
+          <span class="about-section-title-bold">
+            {{ _strings._GilEpshtain_ }}
+          </span>
+          {{ _strings._WebDeveloper_ }}      
+      </h1>
+      <p class="about-section-text">
+        {{ _strings._AboutText_ }}    
+      </p>
+    </div>
+  </div>
+  
+  <!-- Skills -->
+  <div class="about-section row">
+    <section-header [title]="_strings._SkillsTitle_" class="col-12">
+    </section-header>
+
+    <div *ngFor="let skill of _skills" class="col-md-4">
+      <g-skill [title]="skill.title"
+               [text]="skill.text"
+               [value]="skill.value"
+               [color]="skill.color">
+      </g-skill>
+    </div>
   </div>
 
-  <!-- Skills -->
-  <section-header [title]="txtSkillsTitle">
-  </section-header>
-  <h3>Skils Section</h3>
-
   <!-- Experience -->
-  <section-header [title]="txtExperienceTitle">
-  </section-header>
-  <h3>Experience Section</h3>
+  <div class="about-section">
+    <section-header [title]="_strings._ExperienceTitle_">
+    </section-header>
 
+    <h3>Experience Section</h3>
+  </div>
+
+  <!-- Education -->
+  <div class="about-section">
+    <section-header [title]="_strings._EducationTitle_">
+    </section-header>
+
+    <h3>Education Section</h3>
+  </div>
 </div>

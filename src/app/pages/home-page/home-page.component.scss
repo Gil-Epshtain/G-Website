@@ -1,23 +1,38 @@
+@import './../../style/colors.scss';
+
 .home-page-container
 {   
-    height: calc(100vh - 116px); // 116px is header height
+    height: 100vh;
+
+    .background-image
+    {
+        position: absolute;
+        background-image: url("~assets/images/photos/home-background-1920x1080-dark.jpg");
+        background-size: cover;
+        height: 100vh;                
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
 
     .home-page-content
     {
         position: relative;
-        left: 100px;
-        top: 60px;
-    
+        top: 130px;
+        color: $color-turquoise;
+        text-align: center;
+        font-family: KaushanScript;
+
         .home-page-content-title
         {
-            font-size: 50px;
+            font-size: 90px;
         }
 
         .home-page-content-text
         {
-            font-size: 26px;
+            font-size: 30px;
         }
-
+        
         .home-page-content-text-small
         {
             font-size: 13px;

@@ -1,18 +1,36 @@
 // Fonts
+
+// thin type writer
 @font-face
 {
     font-family: Acme;
     src: url(/assets/fonts/Acme/Acme-Regular.ttf);
-
 }
+
+// fat type writer
 @font-face
 {
     font-family: Anton;
     src: url(/assets/fonts/Anton/Anton-Regular.ttf);
 }
 
+// child hand writen
 @font-face
 {
     font-family: gloria-hallelujah;
     src: url(/assets/fonts/Gloria_Hallelujah/GloriaHallelujah.ttf);
+}
+
+// aligant hand writen
+@font-face
+{
+    font-family: KaushanScript;
+    src: url(/assets/fonts/Kaushan_Script/KaushanScript-Regular.ttf);
+}
+
+// surfing font
+@font-face
+{
+    font-family: Shrikhand;
+    src: url(/assets/fonts/Shrikhand/Shrikhand-Regular.ttf);
 }

@@ -11,6 +11,7 @@ import { NgbModule }        from '@ng-bootstrap/ng-bootstrap';
 // Modules
 import { AppRoutingModule }         from './app-routing.module';
 // Services
+import { StringsService }           from './services/strings/strings.service';
 import { PagesService }             from './services/pages/pages.service';
 // Directives
 import { PageHostDirective }        from './directives/page-host/page-host.directive';
@@ -20,6 +21,7 @@ import { HeaderComponent }          from './components/header/header.component';
 import { PageComponent }            from './components/page/page.component';
 import { FooterComponent }          from './components/footer/footer.component';
 import { SectionHeaderComponent }   from './components/section-header/section-header.component';
+import { SkillComponent }           from './components/skill/skill.component';
 // Application Pages
 import { HomePageComponent }        from './pages/home-page/home-page.component';
 import { AboutPageComponent }       from './pages/about-page/about-page.component';
@@ -46,6 +48,7 @@ import { ContactPageComponent }     from './pages/contact-page/contact-page.comp
   // Services
   providers: 
   [
+    StringsService,
     PagesService
   ],
   // Components
@@ -59,6 +62,7 @@ import { ContactPageComponent }     from './pages/contact-page/contact-page.comp
     PageComponent,
     FooterComponent,
     SectionHeaderComponent,
+    SkillComponent,
     // Pages
     HomePageComponent,
     AboutPageComponent,

@@ -1,0 +1,91 @@
+{
+    "_local_":                  "en-US",
+
+
+    "_GilEpshtain_":            "Gil Epshtain",
+
+
+    "_Home_":                   "Home",
+    "_About_":                  "About",
+    "_Projects_":               "Projects",
+    "_Services_":               "Services",
+    "_Employers_":              "Employers",
+    "_Contact_":                "Contact",
+
+
+    "_HomePageQuote_P1_":       "The true sign of intelligence is",
+    "_HomePageQuote_P2_":       "not knowledge but imagination",
+    "_HomePageQuote_P3_":       "Albert Einstein",
+
+      
+    "_AboutTitle_":             "ABOUT",
+    "_HelloIAm_":               "Hello everybody, I’m",
+    "_WebDeveloper_":           "Web and Mobile Developer, Expert of the Client Side",
+    "_AboutText_":              "I’ve been developing websites all the way back to the dark ages of Web1.0, Netscape and Internet Explorer 1.x. Already back then I fell in love in the Internet and its ecosystem. Since then I have finished my academic degree and I have become a professional web developer. Adding to this my passion for designing and creative thinking will make me the perfect choice for your next big web project.",
+
+    "_SkillsTitle_":            "SKILLS",
+    "_SkillTitle_1_":           "Web Developer",
+    "_SkillValue_1_":           "96%",
+    "_SkillText_1_":            "Expert of the client side as it is today, and how it evolved over the past 20 years. Experience with a ton of different frameworks and libraries, both open source and commercial. Experience in building the front-end architecture with all it's layers - Developing and Transpiling, Linting, Bundling, Package managing, Testing, and much much more...",
+    "_SkillTitle_2_":           "Web Architecture",
+    "_SkillValue_2_":           "92%",
+    "_SkillText_2_":            "I have a great understanding of internet architecture. The relationship between the different components on the internet (Client, Middle Tier, Server, Communications). The way these components communicate (different internet protocols: HTTP, FTP, SMTP, TCP, UDP, IP, etc..).",
+    "_SkillTitle_3_":           "Web Design",
+    "_SkillValue_3_":           "83%",
+    "_SkillText_3_":            "Experience in both the basic web design tools (Html, Css) as well as advanced style pre-processors (Sass, Less). High level of understanding of graphic design (GUI) as well as user experience (UX). Knowledge of different tools for designing icons, fonts, templates, and more.",
+
+    "_ExperienceTitle_":        "EXPERIENCE",
+    "_ExperienceCompany_1_":    "Frontline PCB Solutions", 
+    "_ExperiencePosition_1_":   "QA Engineer",
+    "_ExperienceYears_1_":      "2012-2014",
+    "_ExperienceUrl_1_":        "https://www.frontline-pcb.com/",
+    "_ExperienceText_1_":       "Student position. Manual software testing for the engineering products line. Software that provides solutions for PCB (printed circuit boards) manufacturer. Working parallel to the R&D team. Using Oracle 10G-11G databases. Writing testing documents (STD, STP). Developing test automation in Perl. Working in the Scrum methodology (Agile software development framework). Familiarity with SharePoint, VersionOne and TeamTrack web services.",
+    "_ExperienceCompany_2_":    "eMenu International", 
+    "_ExperiencePosition_2_":   "Software Engineer",
+    "_ExperienceYears_2_":      "2014-2015",
+    "_ExperienceUrl_2_":        "https://emenu-international.com/",
+    "_ExperienceText_2_":       "Software engineer at the research and development team at Conceptic Company. A company that provide electronic menus for restaurants on iPad, Android platform. Working on the CMS application – that provide a user friendly way to manage the eMenu's application data. Working on the project starting from the design stage up to the implementation stage. Developing the server side of the application in Asp.Net technology using C#. Developing the client side of the application in Html5, JavaScript, CSS, jQuery, Ajax technologies. Developing the database with SQL. Responsible on both the logic and the graphic sides of the application.",
+    "_ExperienceCompany_3_":    "OnoApps", 
+    "_ExperiencePosition_3_":   "Mobile Developer",
+    "_ExperienceYears_3_":      "2015-2016",
+    "_ExperienceUrl_3_":        "http://onoapps.com/onosite/",
+    "_ExperienceText_3_":       "Part of the Hybrid Applications development team at OnO Apps, working on a large variety of mobile apps. Developing applications for mobile phones running Android or iOS platform using web technologies (Hybrid application). Developing the app with JavaScript and designing the app with Html5 and Css3. Compiling the app to Native code with Cordova (Phone Gap). Working with Native plugins in Java and Objective C (for both platforms). Developing in the latest frameworks such as AngularJS, EmberJS, Ionic and many more.",
+    "_ExperienceCompany_4_":    "Cellcom TV", 
+    "_ExperiencePosition_4_":   "Head of Mobile Development",
+    "_ExperienceYears_4_":      "2015-2016",
+    "_ExperienceUrl_4_":        "https://cellcomtv.cellcom.co.il/",
+    "_ExperienceText_4_":       "Application manager and head developer of the CellcomTV mobile app - Live TV channels and VOD broadcast on your Android and iOS mobile phones and tablets. Single handedly developing the application. Developing the UI of the application with web technologies, using JavaScript with EmberJS framework. Working on the Native video players in Java and Objective-C, on each platform. Responsible on both the development of the application and application management, working parallel to the product department.",
+    "_ExperienceCompany_5_":    "Qognify", 
+    "_ExperiencePosition_5_":   "Client Side Expert",
+    "_ExperienceYears_5_":      "2016-2018",
+    "_ExperienceUrl_5_":        "https://www.qognify.com/",
+    "_ExperienceText_5_":       "Developing the VisionHub web - video management system (VMS). Working on extremely large scale application with enormous code base. Developing in TypeScript, on Microsoft environment. Great attention to software architecture and design. Extensive use of design patterns.",
+    "_ExperienceCompany_6_":    "Septier", 
+    "_ExperiencePosition_6_":   "Front End Expert",
+    "_ExperienceYears_6_":      "2018 till present day",
+    "_ExperienceUrl_6_":        "https://www.septier.com/",
+    "_ExperienceText_6_":       "TBD",
+
+    "_EducationTitle_":         "EDUCATION",
+    "_EducationInstitution_":   "HIT - Holon Institute of Technology", 
+    "_EducationDegree_":        "B.Sc (Bachelor's Degree) in Computer Science.",
+    "_EducationYears_":         "2012-2014",
+    "_EducationUrl_":           "http://www.hit.ac.il/en",
+    "_EducationText_":          "Graduated in the top of my class with a GPA of 96%.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "fin": "end"
+}

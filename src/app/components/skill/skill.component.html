@@ -1,0 +1,19 @@
+<!-- *** Skill *** -->
+<div class="skill-container">
+    <div class="skill-title" [ngStyle]="{ 'color': color }">
+        {{ title }}
+    </div>
+    <div class="skill-text">
+        {{ text }}
+    </div>
+    <div class="progress skill-progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated"
+            [ngStyle]="{ 'background-color': color, 'width': value }"
+             role="progressbar"
+             aria-valuenow="75" 
+             aria-valuemin="0" 
+             aria-valuemax="100">
+             {{ value }}
+        </div>
+    </div>
+</div>
