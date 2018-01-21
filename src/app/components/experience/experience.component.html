@@ -1,0 +1,26 @@
+<!-- *** Experience *** -->
+<div class="experience-container row">
+  <div class="color-square" [ngStyle]="{ 'background-color': color }"></div>
+  
+  <div class="experience-left col-6" [ngStyle]="{ 'color': color }">
+    <div class="experience-title">
+      {{ title }}
+    </div>
+    <div>
+      {{ years }}
+    </div>
+  </div>
+
+  <div class="experience-right col-6">
+      <div class="experience-institution">        
+        {{ institution }}
+      </div>
+      <a [href]="url" target="_blank" class="experience-url">
+        {{ url }}
+      </a>
+  </div>
+
+  <div class="experience-bottom col-12">
+      {{ text }}
+  </div>
+</div>

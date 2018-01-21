@@ -1,0 +1,92 @@
+@import './../../style/colors.scss';
+
+$hover-animation-duration: .7s;
+$hover-animation-type: ease-in-out;
+
+.hover-icon-container
+{
+  -webkit-transition: all $hover-animation-type $hover-animation-duration; // Safari
+  -moz-transition:    all $hover-animation-type $hover-animation-duration; // Mozila
+  -o-transition:      all $hover-animation-type $hover-animation-duration; // Opera
+  transition:         all $hover-animation-type $hover-animation-duration; // Default fallback
+
+  border: 1px solid rgba($color-turquoise, 0.25);  
+  margin: 10px 0;
+  height: 160px;
+  text-align: center;
+  overflow: hidden;
+
+  .hover-icon-info
+  {
+    -webkit-transition: all $hover-animation-type $hover-animation-duration; // Safari
+    -moz-transition:    all $hover-animation-type $hover-animation-duration; // Mozila
+    -o-transition:      all $hover-animation-type $hover-animation-duration; // Opera
+    transition:         all $hover-animation-type $hover-animation-duration; // Default fallback
+
+    position: relative;
+    top: -90px;
+
+    .hover-icon-title
+    {
+      color: $color-turquoise;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .hover-icon-text
+    {
+      white-space: nowrap;
+      font-size: 20px;
+    }
+  }
+
+  .hover-icon-icon
+  { 
+    -webkit-transition: all $hover-animation-type $hover-animation-duration; // Safari
+    -moz-transition:    all $hover-animation-type $hover-animation-duration; // Mozila
+    -o-transition:      all $hover-animation-type $hover-animation-duration; // Opera
+    transition:         all $hover-animation-type $hover-animation-duration; // Default fallback
+    
+    display: inline-block;
+    position: relative;
+    top: -23px;
+
+    width: 70px;
+    height: 70px;
+
+    .hover-icon-icon-img
+    {
+      width: 100%;
+      height: 100%;      
+    }
+  }
+}
+.hover-icon-container:hover
+{  
+  -webkit-transition: all $hover-animation-type $hover-animation-duration; // Safari
+  -moz-transition:    all $hover-animation-type $hover-animation-duration; // Mozila
+  -o-transition:      all $hover-animation-type $hover-animation-duration; // Opera
+  transition:         all $hover-animation-type $hover-animation-duration; // Default fallback
+  
+  border: 1px solid $color-turquoise;
+
+  .hover-icon-info
+  {
+    -webkit-transition: all $hover-animation-type $hover-animation-duration; // Safari
+    -moz-transition:    all $hover-animation-type $hover-animation-duration; // Mozila
+    -o-transition:      all $hover-animation-type $hover-animation-duration; // Opera
+    transition:         all $hover-animation-type $hover-animation-duration; // Default fallback
+    
+    top: 37px;
+  }
+
+  .hover-icon-icon
+  { 
+    -webkit-transition: all $hover-animation-type $hover-animation-duration; // Safari
+    -moz-transition:    all $hover-animation-type $hover-animation-duration; // Mozila
+    -o-transition:      all $hover-animation-type $hover-animation-duration; // Opera
+    transition:         all $hover-animation-type $hover-animation-duration; // Default fallback
+
+    top: -150px;
+  }
+}

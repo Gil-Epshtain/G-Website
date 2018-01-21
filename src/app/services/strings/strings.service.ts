@@ -13,7 +13,7 @@ export class StringsService
 
   public constructor() 
   {
-    console.log("Strings.component - ctor");
+    console.log("Strings.service - ctor");
 
     this._loadStrings();
   }

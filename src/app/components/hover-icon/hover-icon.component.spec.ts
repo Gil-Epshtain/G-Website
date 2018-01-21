@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EmployersPageComponent } from './employers-page.component';
+import { HoverIconComponent } from './hover-icon.component';
 
-describe('EmployersPageComponent', () => {
-  let component: EmployersPageComponent;
-  let fixture: ComponentFixture<EmployersPageComponent>;
+describe('HoverIconComponent', () => {
+  let component: HoverIconComponent;
+  let fixture: ComponentFixture<HoverIconComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EmployersPageComponent ]
+      declarations: [ HoverIconComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EmployersPageComponent);
+    fixture = TestBed.createComponent(HoverIconComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

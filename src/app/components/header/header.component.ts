@@ -14,11 +14,14 @@ export class HeaderComponent implements OnInit
 {
   private _strings: any;
 
-  public isHeaderCollapsed = true;
-
   private _pages: IPageItem[];
 
+  private _activePageId: string; 
+  private _isHeaderCollapsed: boolean
+
   private _isBackgroundTransparent: boolean
+
+
 
   public constructor(
     private _stringsService: StringsService,
@@ -26,6 +29,7 @@ export class HeaderComponent implements OnInit
   {
     console.log("Header.component - ctor");
 
+    this._isHeaderCollapsed = true
     this._isBackgroundTransparent = true;
   }
 
@@ -33,6 +37,16 @@ export class HeaderComponent implements OnInit
   {
     this._strings = this._stringsService.strings;
     this._pages = this._pagesService.getPages();
+    this._activePageId = this._pages[0].id;
+  }
+
+  private _onClickHeaderItem(pageId: string): void
+  {
+//    (click)="_onClickHeaderItem(page.id)"
+
+    console.log(`Header.component - _onClickHeaderItem [pageId: ${pageId}]`);
+
+    this._activePageId = pageId;
   }
 
   @HostListener("window:scroll", ["$event"])

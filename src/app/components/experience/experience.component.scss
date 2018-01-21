@@ -1,0 +1,49 @@
+@import './../../style/colors.scss';
+
+.experience-container
+{
+    border: 1px solid rgba($color-gold, 0.25);
+    margin: 10px 0;
+    padding: 10px 25px;
+    height: calc(100% - 20px); // 20px margin (top, bootom)
+
+    .color-square
+    {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      left: -5px;
+      top: calc(50% - 20px);
+    }
+
+    .experience-left
+    {
+      font-weight: bold;
+
+      .experience-title
+      {
+        font-size: 20px;
+      }
+    }
+
+    .experience-right
+    {
+      .experience-institution
+      {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .experience-url
+      {
+        color: $color-gold;
+        text-decoration: underline;
+        font-size: 14px;
+      }
+    }
+
+    .experience-bottom
+    {
+        margin-top: 15px;
+    }
+}

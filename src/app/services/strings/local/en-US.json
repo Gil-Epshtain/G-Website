@@ -34,21 +34,21 @@
     "_SkillValue_3_":           "83%",
     "_SkillText_3_":            "Experience in both the basic web design tools (Html, Css) as well as advanced style pre-processors (Sass, Less). High level of understanding of graphic design (GUI) as well as user experience (UX). Knowledge of different tools for designing icons, fonts, templates, and more.",
 
-    "_ExperienceTitle_":        "EXPERIENCE",
-    "_ExperienceCompany_1_":    "Frontline PCB Solutions", 
+    "_ExperienceTitle_":        "EXPERIENCE",    
+    "_ExperienceCompany_1_":    "Frontline PCB", 
     "_ExperiencePosition_1_":   "QA Engineer",
     "_ExperienceYears_1_":      "2012-2014",
     "_ExperienceUrl_1_":        "https://www.frontline-pcb.com/",
     "_ExperienceText_1_":       "Student position. Manual software testing for the engineering products line. Software that provides solutions for PCB (printed circuit boards) manufacturer. Working parallel to the R&D team. Using Oracle 10G-11G databases. Writing testing documents (STD, STP). Developing test automation in Perl. Working in the Scrum methodology (Agile software development framework). Familiarity with SharePoint, VersionOne and TeamTrack web services.",
-    "_ExperienceCompany_2_":    "eMenu International", 
-    "_ExperiencePosition_2_":   "Software Engineer",
+    "_ExperienceCompany_2_":    "Conceptic", 
+    "_ExperiencePosition_2_":   "Full Stack Developer",
     "_ExperienceYears_2_":      "2014-2015",
     "_ExperienceUrl_2_":        "https://emenu-international.com/",
-    "_ExperienceText_2_":       "Software engineer at the research and development team at Conceptic Company. A company that provide electronic menus for restaurants on iPad, Android platform. Working on the CMS application – that provide a user friendly way to manage the eMenu's application data. Working on the project starting from the design stage up to the implementation stage. Developing the server side of the application in Asp.Net technology using C#. Developing the client side of the application in Html5, JavaScript, CSS, jQuery, Ajax technologies. Developing the database with SQL. Responsible on both the logic and the graphic sides of the application.",
+    "_ExperienceText_2_":       "Software engineer at the research and development team at Conceptic. A company that provide electronic menus for restaurants on iPad, Android platform. Working on the CMS application – that provide a user friendly way to manage the eMenu's application data. Working on the project starting from the design stage up to the implementation stage. Developing the server side of the application in Asp.Net technology using C#. Developing the client side of the application in Html5, JavaScript, CSS, jQuery, Ajax technologies. Developing the database with SQL. Responsible on both the logic and the graphic sides of the application.",
     "_ExperienceCompany_3_":    "OnoApps", 
     "_ExperiencePosition_3_":   "Mobile Developer",
     "_ExperienceYears_3_":      "2015-2016",
-    "_ExperienceUrl_3_":        "http://onoapps.com/onosite/",
+    "_ExperienceUrl_3_":        "http://onoapps.com/",
     "_ExperienceText_3_":       "Part of the Hybrid Applications development team at OnO Apps, working on a large variety of mobile apps. Developing applications for mobile phones running Android or iOS platform using web technologies (Hybrid application). Developing the app with JavaScript and designing the app with Html5 and Css3. Compiling the app to Native code with Cordova (Phone Gap). Working with Native plugins in Java and Objective C (for both platforms). Developing in the latest frameworks such as AngularJS, EmberJS, Ionic and many more.",
     "_ExperienceCompany_4_":    "Cellcom TV", 
     "_ExperiencePosition_4_":   "Head of Mobile Development",
@@ -66,7 +66,7 @@
     "_ExperienceUrl_6_":        "https://www.septier.com/",
     "_ExperienceText_6_":       "TBD",
 
-    "_EducationTitle_":         "EDUCATION",
+    "_EducationTitle_":         "EDUCATION",    
     "_EducationInstitution_":   "HIT - Holon Institute of Technology", 
     "_EducationDegree_":        "B.Sc (Bachelor's Degree) in Computer Science.",
     "_EducationYears_":         "2012-2014",
@@ -80,12 +80,34 @@
 
 
 
+    "_ContactTitle_":           "CONTACT", 
+    "_ContactText_":            "Fill free to contact me for any issue",  
+    "_EMail_":                  "E-Mail",
+    "_EMailValue_":             "Gil_Epshtain@yahoo.com",
+    "_Phone_":                  "Phone",
+    "_PhoneValue_":             "Private, please use eMail",
+    "_Address_":                "Address",
+    "_AddressValue_":           "Private, please use eMail",
+
+    "_Name_":                   "Name",
+    "_Message_":                "Message",
+    "_Send_":                   "Send",
 
 
+    "_SocialMediaTitle_1_":     "Facebook", 
+    "_SocialMediaUrl_1_":       "https://www.facebook.com/Gil.Epshtain",
+    "_SocialMediaTitle_2_":     "LinkedIn", 
+    "_SocialMediaUrl_2_":       "https://www.linkedin.com/in/Gil-Epshtain-41134570",
+    "_SocialMediaTitle_3_":     "Google+", 
+    "_SocialMediaUrl_3_":       "https://plus.google.com/114479878076096432932",
+    "_SocialMediaTitle_4_":     "Stack Overflow", 
+    "_SocialMediaUrl_4_":       "https://stackoverflow.com/users/2658683/Gil-Epshtain",
+    "_SocialMediaTitle_5_":     "GitHub", 
+    "_SocialMediaUrl_5_":       "https://github.com/Gil-Epshtain",
 
+    "_DevelopedByGilE_":        "Developed and Designed by Gil Epshtain",
+    "_RightsReserved_":         "2017-2018, All rights reserved.",
 
-
-
-
+    
     "fin": "end"
 }

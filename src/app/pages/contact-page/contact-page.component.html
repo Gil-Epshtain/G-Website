@@ -1,4 +1,22 @@
 <!-- *** Contact-Page *** -->
-<div class="contact-container">
-  <h1>-Contact-</h1>
+<div class="contact-container container">
+    <section-header [title]="_strings._ContactTitle_">
+    </section-header>
+
+    <!-- contact info -->
+    <div class="contact-info-section row">
+      <div *ngFor="let info of _contactInfo" class="col-md-4">
+        <g-hover-icon [title]="info.title"
+                      [text]="info.text"
+                      [icon]="info.icon">
+        </g-hover-icon>
+      </div>
+    </div>
+
+    <!-- contact form -->
+    <div class="contact-form-section row">
+      <div class="col-12">
+        <g-contact-form></g-contact-form>
+      </div>
+    </div>
 </div>

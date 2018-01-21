@@ -2,10 +2,9 @@
 <div class="about-container container">
 
   <!-- About -->
+  <section-header [title]="_strings._AboutTitle_">
+  </section-header>
   <div class="about-section row">
-    <section-header [title]="_strings._AboutTitle_" class="col-12">
-    </section-header>
-
     <div class="about-img-container col-lg-6 col-xl-5">
       <img src="/assets/images/photos/about-photo-blur.jpg" class="about-img">
     </div>
@@ -25,10 +24,9 @@
   </div>
   
   <!-- Skills -->
+  <section-header [title]="_strings._SkillsTitle_">
+  </section-header>
   <div class="about-section row">
-    <section-header [title]="_strings._SkillsTitle_" class="col-12">
-    </section-header>
-
     <div *ngFor="let skill of _skills" class="col-md-4">
       <g-skill [title]="skill.title"
                [text]="skill.text"
@@ -39,18 +37,32 @@
   </div>
 
   <!-- Experience -->
-  <div class="about-section">
-    <section-header [title]="_strings._ExperienceTitle_">
-    </section-header>
-
-    <h3>Experience Section</h3>
+  <section-header [title]="_strings._ExperienceTitle_">
+  </section-header>
+  <div class="about-section row">
+    <div *ngFor="let experience of _experiences" class="col-md-6">
+      <g-experience [title]="experience.title"
+                    [years]="experience.years"
+                    [institution]="experience.institution"
+                    [url]="experience.url"
+                    [text]="experience.text"
+                    [color]="experience.color">
+      </g-experience>
+    </div>
   </div>
 
   <!-- Education -->
-  <div class="about-section">
-    <section-header [title]="_strings._EducationTitle_">
-    </section-header>
-
-    <h3>Education Section</h3>
+  <section-header [title]="_strings._EducationTitle_">
+  </section-header>
+  <div class="about-section row">
+    <div class="col-12">
+      <g-experience [title]="_education.title"
+                    [years]="_education.years"
+                    [institution]="_education.institution"
+                    [url]="_education.url"
+                    [text]="_education.text"
+                    [color]="_education.color">
+      </g-experience>
+    </div>
   </div>
 </div>

@@ -20,10 +20,11 @@ import { IPageItem }          from '../../services/pages/pages.service';
 })
 export class PageComponent implements OnInit, AfterViewInit 
 {
-  private _bgColor: string;
-
   @Input() page: IPageItem;
   @ViewChild(PageHostDirective) pageHost: PageHostDirective;
+
+  private _id: string;
+  private _bgColor: string;
 
   public constructor(private _componentFactoryResolver: ComponentFactoryResolver) 
   {
@@ -43,6 +44,8 @@ export class PageComponent implements OnInit, AfterViewInit
   private _loadDynamicPage(): void
   {
     console.log(`Page.component::_loadDynamicPage [page: ${this.page.title}]`);
+
+    this._id = this.page.id;
 
     if (this.page.bgColor)
     {

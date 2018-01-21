@@ -1,24 +1,35 @@
+@import './../../style/colors.scss';
+
 .skill-container
-{
-    padding-top: 15px;
-    padding-bottom: 15px;
+{  
+  display: table;
+  margin: 10px 0;
+  height: calc(100% - 20px); // 20px margin (top, bottom)
 
-    .skill-title
-    {
-        font-family: KaushanScript;
-        font-size: 40px;
-        font-weight: bold;
-    }
+  .skill-title
+  {
+    font-family: KaushanScript;
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
 
-    .skill-text
-    {
-        font-size: 18px;
-        padding: 10px 0;
-    }
+  .skill-text
+  {
+    font-size: 18px;
+    padding: 10px 0;
+  }
 
-    .skill-progress
+  .skill-progress
+  {
+    display: table-row;
+    height: 45px;
+    font-size: 30px;
+    background-color: rgba($color-gold, 0.25);
+
+    .skill-progress-inner
     {
-        height: 45px;
-        font-size: 30px;
+      background-size: 2rem 2rem;
     }
+  }
 }
