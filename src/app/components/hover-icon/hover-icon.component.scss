@@ -10,7 +10,7 @@ $hover-animation-type: ease-in-out;
   -o-transition:      all $hover-animation-type $hover-animation-duration; // Opera
   transition:         all $hover-animation-type $hover-animation-duration; // Default fallback
 
-  border: 1px solid rgba($color-turquoise, 0.25);  
+  border: 1px solid rgba($color-light-blue, 0.25);  
   margin: 10px 0;
   height: 160px;
   text-align: center;
@@ -68,7 +68,7 @@ $hover-animation-type: ease-in-out;
   -o-transition:      all $hover-animation-type $hover-animation-duration; // Opera
   transition:         all $hover-animation-type $hover-animation-duration; // Default fallback
   
-  border: 1px solid $color-turquoise;
+  border: 1px solid $color-light-blue;
 
   .hover-icon-info
   {

@@ -19,9 +19,10 @@
 
       
     "_AboutTitle_":             "ABOUT",
+    "_AboutText_":              "ABOUT",
     "_HelloIAm_":               "Hello everybody, I’m",
     "_WebDeveloper_":           "Web and Mobile Developer, Expert of the Client Side",
-    "_AboutText_":              "I’ve been developing websites all the way back to the dark ages of Web1.0, Netscape and Internet Explorer 1.x. Already back then I fell in love in the Internet and its ecosystem. Since then I have finished my academic degree and I have become a professional web developer. Adding to this my passion for designing and creative thinking will make me the perfect choice for your next big web project.",
+    "_AboutMeText_":            "I’ve been developing websites all the way back to the dark ages of Web1.0, Netscape and Internet Explorer 1.x. Already back then I fell in love in the Internet and its ecosystem. Since then I have finished my academic degree and I have become a professional web developer. Adding to this my passion for designing and creative thinking will make me the perfect choice for your next big web project.",
 
     "_SkillsTitle_":            "SKILLS",
     "_SkillTitle_1_":           "Web Developer",
@@ -74,10 +75,32 @@
     "_EducationText_":          "Graduated in the top of my class with a GPA of 96%.",
 
 
+    "_ServicesTitle_":          "SERVICES",
+    "_ServicesText_":           "SERVICES",
+    "_ServiceTitle_1_":         "Web Development",
+    "_ServiceText_1_":          "Web Development...",
+    "_ServiceTitle_2_":         "Web Design",
+    "_ServiceText_2_":          "Web Design...",
+    "_ServiceTitle_3_":         "Architecture Design",
+    "_ServiceText_3_":          "Architecture Design...",
+    "_ServiceTitle_4_":         "SEO",
+    "_ServiceText_4_:":         "SEO...",
 
+    "_WorkProcessTitle_":       "WORK PROCESS",
+    "_WorkProcessText_":        "WORK PROCESS",
 
-
-
+    "_WorkProcessTitle_1_":     "RESEARCH",
+    "_WorkProcessText_1_":      "research",
+    "_WorkProcessTitle_2_":     "DESIGN",
+    "_WorkProcessText_2_":      "Design the software architecture",
+    "_WorkProcessTitle_3_":     "DEVELOPMENT",
+    "_WorkProcessText_3_":      "Code implementation",
+    "_WorkProcessTitle_4_":     "TEST",
+    "_WorkProcessText_4_":      "QA tests for bugs",
+    "_WorkProcessTitle_5_":     "STABILIZATION",
+    "_WorkProcessText_5_":      "Fix bugs",
+    "_WorkProcessTitle_6_":     "DELIVERY",
+    "_WorkProcessText_6_":      "Release the product to the customer and provide a maintenance support",
 
 
     "_ContactTitle_":           "CONTACT", 
@@ -92,7 +115,10 @@
     "_Name_":                   "Name",
     "_Message_":                "Message",
     "_Send_":                   "Send",
-
+    "_FormInvalidName_":        "Name must be between 2 to 32 characters long.",
+    "_FormInvalidEMail_":       "E-Mail format invalid.",
+    "_FormInvalidMessage_":     "Message is required.",
+    "_MessageSent_":            "Message was send, Thank you.",
 
     "_SocialMediaTitle_1_":     "Facebook", 
     "_SocialMediaUrl_1_":       "https://www.facebook.com/Gil.Epshtain",

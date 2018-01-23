@@ -2,9 +2,45 @@
 
 .contact-form-container
 {
-  border: 1px solid red;
-  height: 40px;
+  padding: 20px 0;
+  text-align: center;
 
-  // from here
+  .g-form-input
+  {    
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba($color-light-blue, 0.25); 
+    margin: 15px 0;
+    padding: 0 5px;
+    color: $color-gold;
+  }
+  .g-form-input:focus
+  {
+    outline: none;
+    border: 1px solid $color-light-blue;
+  }
 
+  .g-form-input-multiline
+  {
+    height: 110px;
+    padding-top: 6px;
+    resize: none;
+  }
+
+  .g-form-input-button
+  {
+    position: relative;
+    top: -6px;
+    font-weight: bold;
+  }
+
+  .form-valid
+  {
+    color: $color-valid;
+  }
+  .form-invalid
+  {
+    color: $color-invalid;
+  }
 }

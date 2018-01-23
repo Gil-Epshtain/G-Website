@@ -1,6 +1,7 @@
+@import './../../style/colors.scss';
+
 .application-container
 {
-    background-color: #757575;
-    color: rgb(196, 160, 79);
+    color: $color-gold;
     overflow: hidden; // the only scroll is of the body
 }

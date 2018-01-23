@@ -16,6 +16,8 @@ export class ContactService
   {
     console.log(`Contact.service - sendContactMessage [name: ${name}, email: ${email}, phone: ${phone}]`);
 
-    console.warn("sendContactMessage not implemented yet");
+    let msg = "sendContactMessage not implemented yet"
+    console.warn(msg);
+    alert(msg);
   }
 }

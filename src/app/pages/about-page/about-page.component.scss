@@ -2,33 +2,33 @@
 
 .about-container
 {
-    .about-section
+  .about-section
+  {
+    .about-img-container
     {
-        .about-img-container
-        {
-            padding-bottom: 8px;
-            
-            .about-img
-            {
-                position: relative;
-                width: 100%;
-            }
-        }
-
-        .about-section-title
-        {
-            font-size: 26px;
-
-            .about-section-title-bold
-            {
-                font-weight: bold;
-                color: $color-turquoise;
-            }
-        }
-
-        .about-section-text
-        {
-            font-size: 18px;
-        }
+      padding-bottom: 8px;
+      
+      .about-img
+      {
+        position: relative;
+        width: 100%;
+      }
     }
+
+    .about-section-title
+    {
+      font-size: 26px;
+
+      .about-section-title-bold
+      {
+        font-weight: bold;
+        color: $color-light-blue;
+      }
+    }
+
+    .about-section-text
+    {
+      font-size: 18px;
+    }
+  }
 }

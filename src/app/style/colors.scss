@@ -1,13 +1,26 @@
-$color-black:       rgb(17, 17, 17);
-$color-light-black: rgb(23, 23, 23);
+$color-black:       rgb(17, 17, 17);    // "#111111"
+$color-light-black: rgb(23, 23, 23);    // "#171717"
 
-// text
-$color-gold:        rgb(196, 160, 79);  
+$color-valid:       rgb(63, 255, 63);   // "#3fff3f"
+$color-invalid:     rgb(255, 61, 61);   // "#ff3f3f"
 
-// active
-$color-turquoise:   rgb(101, 205, 214); // #65CDD6
+$color-gold:        rgb(196, 160, 79);  // "#c4a04f"
+$color-light-blue:  rgb(101, 205, 214); // "#65CDD6"
+$color-orange:      rgb(219, 112, 17);  // "#db7011"
+$color-yellow:      rgb(207, 219, 17);  // "#cfdb11"
+$color-turquoise:   rgb(17, 219, 164);  // "#11dba4"
+$color-pink:        rgb(228, 20, 74);   // "#e4144a"
 
-// orange:     "#db7011";
-// limeGreen:  "#cfdb11";
-// turquoise:  "#11dba4 ";
-// pink:       "#e4144a";
+// Export to JavaScript
+:export {
+  colorBlack:       $color-black;
+  colorLightBlack:  $color-light-black;
+  colorValid:       $color-valid;
+  colorInvalid:     $color-invalid;
+  colorGold:        $color-gold;
+  colorLightBlue:   $color-light-blue;
+  colorOrange:      $color-orange;
+  colorYellow:      $color-yellow;
+  colorTurquoise:   $color-turquoise;
+  colorPink:        $color-pink;
+}

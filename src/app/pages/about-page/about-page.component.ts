@@ -2,16 +2,10 @@
 import { Component, OnInit } from '@angular/core';
 
 // Application
-import { IBasePage } from './../base-page';
+import { IBasePage }      from './../base-page';
 import { StringsService } from './../../services/strings/strings.service';
 
-const colors =
-{
-  orange:     "#db7011",
-  limeGreen:  "#cfdb11",
-  turquoise:  "#11dba4 ",
-  pink:       "#e4144a"
-};
+import { styleObj }       from './../../style/style';
 
 @Component({
   selector: 'g-about-page',
@@ -50,19 +44,19 @@ export class AboutPageComponent implements OnInit, IBasePage
         title: this._strings._SkillTitle_1_,
         text:  this._strings._SkillText_1_,
         value: this._strings._SkillValue_1_,
-        color: colors.orange
+        color: styleObj.colors.colorOrange
       },
       {
         title: this._strings._SkillTitle_2_,
         text:  this._strings._SkillText_2_,
         value: this._strings._SkillValue_2_,
-        color: colors.limeGreen
+        color: styleObj.colors.colorYellow
       },
       {
         title: this._strings._SkillTitle_3_,
         text:  this._strings._SkillText_3_,
         value: this._strings._SkillValue_3_,
-        color: colors.turquoise
+        color: styleObj.colors.colorTurquoise
       }
     ];
   }
@@ -77,7 +71,7 @@ export class AboutPageComponent implements OnInit, IBasePage
         institution:  this._strings._ExperienceCompany_6_,
         url:          this._strings._ExperienceUrl_6_,
         text:         this._strings._ExperienceText_6_,
-        color:        colors.orange
+        color:        styleObj.colors.colorOrange
       },
       {
         title:        this._strings._ExperiencePosition_5_,
@@ -85,7 +79,7 @@ export class AboutPageComponent implements OnInit, IBasePage
         institution:  this._strings._ExperienceCompany_5_,
         url:          this._strings._ExperienceUrl_5_,
         text:         this._strings._ExperienceText_5_,
-        color:        colors.limeGreen
+        color:        styleObj.colors.colorYellow
       },
       {
         title:        this._strings._ExperiencePosition_4_,
@@ -93,7 +87,7 @@ export class AboutPageComponent implements OnInit, IBasePage
         institution:  this._strings._ExperienceCompany_4_,
         url:          this._strings._ExperienceUrl_4_,
         text:         this._strings._ExperienceText_4_,
-        color:        colors.turquoise
+        color:        styleObj.colors.colorTurquoise
       },
       {
         title:        this._strings._ExperiencePosition_3_,
@@ -101,7 +95,7 @@ export class AboutPageComponent implements OnInit, IBasePage
         institution:  this._strings._ExperienceCompany_3_,
         url:          this._strings._ExperienceUrl_3_,
         text:         this._strings._ExperienceText_3_,
-        color:        colors.pink
+        color:        styleObj.colors.colorPink
       },
       {
         title:        this._strings._ExperiencePosition_2_,
@@ -109,7 +103,7 @@ export class AboutPageComponent implements OnInit, IBasePage
         institution:  this._strings._ExperienceCompany_2_,
         url:          this._strings._ExperienceUrl_2_,
         text:         this._strings._ExperienceText_2_,
-        color:        colors.orange
+        color:        styleObj.colors.colorOrange
       },
       {
         title:        this._strings._ExperiencePosition_1_,
@@ -117,7 +111,7 @@ export class AboutPageComponent implements OnInit, IBasePage
         institution:  this._strings._ExperienceCompany_1_,
         url:          this._strings._ExperienceUrl_1_,
         text:         this._strings._ExperienceText_1_,
-        color:        colors.limeGreen
+        color:        styleObj.colors.colorYellow
       }
     ];
   }
@@ -131,7 +125,7 @@ export class AboutPageComponent implements OnInit, IBasePage
       institution:  this._strings._EducationInstitution_,
       url:          this._strings._EducationUrl_,
       text:         this._strings._EducationText_,
-      color:        colors.turquoise
+      color:        styleObj.colors.colorTurquoise
     };
   }
 }

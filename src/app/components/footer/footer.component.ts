@@ -1,5 +1,7 @@
+// Angular
 import { Component, OnInit } from '@angular/core';
 
+// Application
 import { StringsService } from './../../services/strings/strings.service';
 
 const logos =

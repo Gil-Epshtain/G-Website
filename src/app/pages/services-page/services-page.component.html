@@ -1,3 +1,30 @@
-<p>
-  services-page works!
-</p>
+<!-- *** Services-Page *** -->
+<div class="services-container container">
+  <section-header [title]="_strings._ServicesTitle_"
+                  [text]="_strings._ServicesText_">
+  </section-header>
+
+  <div class="services-section row">
+    <div *ngFor="let service of _services" class="col-md-4">
+      <g-service [title]="service.title"
+                 [text]="service.text"
+                 [color]="service.color"
+                 [icon]="service.icon">
+      </g-service>
+    </div>
+  </div>
+
+  <section-header [title]="_strings._WorkProcessTitle_"
+                  [text]="_strings._WorkProcessTitle_">
+  </section-header>
+
+  <div class="services-section row">
+    <div *ngFor="let workFlow of _workFlows" class="col-md-3">
+      <g-work-flow [title]="workFlow.title"
+                    [text]="workFlow.text"
+                    [color]="workFlow.color"
+                    [icon]="workFlow.icon">
+      </g-work-flow>
+    </div>
+  </div>
+</div>

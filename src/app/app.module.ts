@@ -24,6 +24,8 @@ import { FooterComponent }          from './components/footer/footer.component';
 import { SectionHeaderComponent }   from './components/section-header/section-header.component';
 import { SkillComponent }           from './components/skill/skill.component';
 import { ExperienceComponent }      from './components/experience/experience.component';
+import { WorkFlowComponent }        from './components/work-flow/work-flow.component';
+import { ServiceComponent }         from './components/service/service.component';
 import { HoverIconComponent }       from './components/hover-icon/hover-icon.component';
 import { ContactFormComponent }     from './components/contact-form/contact-form.component';
 
@@ -69,6 +71,8 @@ import { ContactPageComponent }     from './pages/contact-page/contact-page.comp
     SectionHeaderComponent,
     SkillComponent,
     ExperienceComponent,
+    WorkFlowComponent,
+    ServiceComponent,
     HoverIconComponent,
     ContactFormComponent,
     // Pages
