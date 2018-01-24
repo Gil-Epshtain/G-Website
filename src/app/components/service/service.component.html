@@ -1,9 +1,17 @@
 <!-- *** Service *** -->
 <div class="service-container">
-  <div class="service-title">
-    {{ title }}
+  
+  <!-- icon -->
+  <div class="service-icon" [ngStyle]="{ 'background-color': color }">
+    <img [src]="icon" class="service-icon-img" />
   </div>
-  <div class="service-text">
-    {{ text }}
+
+  <div class="service-info">    
+    <div class="service-title" [ngStyle]="{ 'color': color }">
+      {{ title }}
+    </div>
+    <div class="service-text">
+      {{ text }}
+    </div>
   </div>
 </div>

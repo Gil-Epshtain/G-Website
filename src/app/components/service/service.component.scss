@@ -1,15 +1,45 @@
 @import './../../style/colors.scss';
 
+$height-service: 125px;
+$height-service-icon: 55px;
+
 .service-container
 {
+  height: $height-service;
+  border: 1px solid rgba($color-gold, 0.25);
+  margin-bottom: 30px;
+  white-space: nowrap;
 
-  .service-title
+  .service-icon
   {
+    display: inline-block;
+    height: 100%;
+    width: $height-service;
+    padding: ($height-service - $height-service-icon) / 2;// 35px; // (125 - 55)/ 2
 
+    .service-icon-img
+    {
+      width: $height-service-icon;
+      height: $height-service-icon;
+    }
   }
-
-  .service-text
+  .service-info
   {
+    display: inline-block;
+    height: 100%;
+    width: calc(100% - #{ $height-service });
+    padding: 10px 20px;
+    vertical-align: top;
 
+    .service-title
+    {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .service-text
+    {
+      white-space: normal;
+    }
   }
 }

@@ -9,7 +9,10 @@ import { styleObj }       from './../../style/style';
 
 const icons =
 {
-  a: "/assets/images/icons/x-icon.png",
+  code:   "/assets/images/icons/services/code-icon.png",
+  design: "/assets/images/icons/services/design-icon.png",
+  plan:   "/assets/images/icons/services/plan-icon.png",
+  tools:  "/assets/images/icons/services/tools-icon.png"
 };
 
 @Component({
@@ -46,26 +49,26 @@ export class ServicesPageComponent implements OnInit, IBasePage
       {
         title: this._strings._ServiceTitle_1_,
         text: this._strings._ServiceText_1_,
-        icon: icons.a,
-        color: styleObj.colors.colorOrange        
+        icon: icons.code,
+        color: styleObj.colors.colorOrange
       },
       {
         title: this._strings._ServiceTitle_2_,
         text: this._strings._ServiceText_2_,
-        icon: icons.a,
-        color: styleObj.colors.colorOrange        
+        icon: icons.design,
+        color: styleObj.colors.colorYellow
       },
       {
         title: this._strings._ServiceTitle_3_,
         text: this._strings._ServiceText_3_,
-        icon: icons.a,
-        color: styleObj.colors.colorOrange        
+        icon: icons.plan,
+        color: styleObj.colors.colorTurquoise
       },
       {
         title: this._strings._ServiceTitle_4_,
         text: this._strings._ServiceText_4_,
-        icon: icons.a,
-        color: styleObj.colors.colorOrange        
+        icon: icons.tools,
+        color: styleObj.colors.colorPink
       }
     ];
   }
@@ -77,38 +80,38 @@ export class ServicesPageComponent implements OnInit, IBasePage
       {
         title: this._strings._WorkProcessTitle_1_,
         text: this._strings._WorkProcessText_1_,
-        icon: icons.a,
-        color: styleObj.colors.colorOrange        
+        icon: icons.code,
+        color: styleObj.colors.colorOrange
       },
       {
         title: this._strings._WorkProcessTitle_2_,
         text: this._strings._WorkProcessText_2_,
-        icon: icons.a,
-        color: styleObj.colors.colorOrange        
+        icon: icons.code,
+        color: styleObj.colors.colorYellow
       },
       {
         title: this._strings._WorkProcessTitle_3_,
         text: this._strings._WorkProcessText_3_,
-        icon: icons.a,
-        color: styleObj.colors.colorOrange        
+        icon: icons.code,
+        color: styleObj.colors.colorTurquoise
       },
       {
         title: this._strings._WorkProcessTitle_4_,
         text: this._strings._WorkProcessText_4_,
-        icon: icons.a,
-        color: styleObj.colors.colorOrange        
+        icon: icons.code,
+        color: styleObj.colors.colorPink
       },
       {
         title: this._strings._WorkProcessTitle_5_,
         text: this._strings._WorkProcessText_5_,
-        icon: icons.a,
-        color: styleObj.colors.colorOrange        
+        icon: icons.code,
+        color: styleObj.colors.colorOrange
       },
       {
         title: this._strings._WorkProcessTitle_6_,
         text: this._strings._WorkProcessText_6_,
-        icon: icons.a,
-        color: styleObj.colors.colorOrange        
+        icon: icons.code,
+        color: styleObj.colors.colorYellow
       }
     ];
   }
