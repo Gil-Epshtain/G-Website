@@ -15,7 +15,7 @@ $height-service-icon: 55px;
     display: inline-block;
     height: 100%;
     width: $height-service;
-    padding: ($height-service - $height-service-icon) / 2;// 35px; // (125 - 55)/ 2
+    padding: ($height-service - $height-service-icon) / 2;
 
     .service-icon-img
     {
@@ -28,7 +28,7 @@ $height-service-icon: 55px;
     display: inline-block;
     height: 100%;
     width: calc(100% - #{ $height-service });
-    padding: 10px 20px;
+    padding: 10px 10px;
     vertical-align: top;
 
     .service-title

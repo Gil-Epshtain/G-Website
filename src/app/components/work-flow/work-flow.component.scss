@@ -1,15 +1,40 @@
 @import './../../style/colors.scss';
 
+$height-work-flow-icon: 100px;
+$height-work-flow-icon-img: 50px;
+
 .work-flow-container
 {
+  text-align: center;
+  padding-bottom: 30px;
 
-  .work-flow-title
+  .work-flow-icon
   {
+    display: inline-block;
+    height: $height-work-flow-icon;
+    width: $height-work-flow-icon;
+    padding: ($height-work-flow-icon - $height-work-flow-icon-img) / 2;
 
+    .work-flow-icon-img
+    {
+      height: $height-work-flow-icon-img;
+      width: $height-work-flow-icon-img;
+    }
   }
 
-  .work-flow-text
+  .work-flow-info
   {
+    padding: 10px 15px 0;
 
+    .work-flow-title
+    {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .work-flow-text
+    {
+
+    }
   }
 }

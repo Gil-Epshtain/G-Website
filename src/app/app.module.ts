@@ -32,6 +32,7 @@ import { ContactFormComponent }     from './components/contact-form/contact-form
 // Application Pages
 import { HomePageComponent }        from './pages/home-page/home-page.component';
 import { AboutPageComponent }       from './pages/about-page/about-page.component';
+import { ExperiencePageComponent }  from './pages/experience-page/experience-page.component';
 import { ProjectsPageComponent }    from './pages/projects-page/projects-page.component';
 import { ServicesPageComponent }    from './pages/services-page/services-page.component';
 import { ContactPageComponent }     from './pages/contact-page/contact-page.component';
@@ -81,15 +82,15 @@ import { ContactPageComponent }     from './pages/contact-page/contact-page.comp
     ProjectsPageComponent,
     ServicesPageComponent,
     ContactPageComponent,
+    ExperiencePageComponent,
     // fin
   ],
   // Dynamically loaded components
   entryComponents: 
-  [ 
+  [     
     HomePageComponent,
     AboutPageComponent,
-    HomePageComponent,
-    AboutPageComponent,
+    ExperiencePageComponent,
     ProjectsPageComponent,
     ServicesPageComponent,
     ContactPageComponent

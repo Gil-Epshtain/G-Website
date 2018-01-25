@@ -9,10 +9,17 @@ import { styleObj }       from './../../style/style';
 
 const icons =
 {
-  code:   "/assets/images/icons/services/code-icon.png",
-  design: "/assets/images/icons/services/design-icon.png",
-  plan:   "/assets/images/icons/services/plan-icon.png",
-  tools:  "/assets/images/icons/services/tools-icon.png"
+  code:       "/assets/images/icons/services/code-svg.svg",
+  design:     "/assets/images/icons/services/design-svg.svg",
+  plan:       "/assets/images/icons/services/plan-svg.svg",
+  tools:      "/assets/images/icons/services/tools-svg.svg",
+
+  research:   "/assets/images/icons/work-flow/research-svg.svg",
+  designArc:  "/assets/images/icons/work-flow/design-arc-svg.svg",
+  develop:    "/assets/images/icons/work-flow/develop-svg.svg",
+  test:       "/assets/images/icons/work-flow/test-svg.svg",
+  stabilize:  "/assets/images/icons/work-flow/stabilize-svg.svg",
+  delivery:   "/assets/images/icons/work-flow/delivery-svg.svg",
 };
 
 @Component({
@@ -80,37 +87,37 @@ export class ServicesPageComponent implements OnInit, IBasePage
       {
         title: this._strings._WorkProcessTitle_1_,
         text: this._strings._WorkProcessText_1_,
-        icon: icons.code,
+        icon: icons.research,
         color: styleObj.colors.colorOrange
       },
       {
         title: this._strings._WorkProcessTitle_2_,
         text: this._strings._WorkProcessText_2_,
-        icon: icons.code,
+        icon: icons.designArc,
         color: styleObj.colors.colorYellow
       },
       {
         title: this._strings._WorkProcessTitle_3_,
         text: this._strings._WorkProcessText_3_,
-        icon: icons.code,
+        icon: icons.develop,
         color: styleObj.colors.colorTurquoise
       },
       {
         title: this._strings._WorkProcessTitle_4_,
         text: this._strings._WorkProcessText_4_,
-        icon: icons.code,
+        icon: icons.test,
         color: styleObj.colors.colorPink
       },
       {
         title: this._strings._WorkProcessTitle_5_,
         text: this._strings._WorkProcessText_5_,
-        icon: icons.code,
+        icon: icons.stabilize,
         color: styleObj.colors.colorOrange
       },
       {
         title: this._strings._WorkProcessTitle_6_,
         text: this._strings._WorkProcessText_6_,
-        icon: icons.code,
+        icon: icons.delivery,
         color: styleObj.colors.colorYellow
       }
     ];

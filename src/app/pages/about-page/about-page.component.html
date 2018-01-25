@@ -36,34 +36,4 @@
       </g-skill>
     </div>
   </div>
-
-  <!-- Experience -->
-  <section-header [title]="_strings._ExperienceTitle_">
-  </section-header>
-  <div class="about-section row">
-    <div *ngFor="let experience of _experiences" class="col-md-6">
-      <g-experience [title]="experience.title"
-                    [years]="experience.years"
-                    [institution]="experience.institution"
-                    [url]="experience.url"
-                    [text]="experience.text"
-                    [color]="experience.color">
-      </g-experience>
-    </div>
-  </div>
-
-  <!-- Education -->
-  <section-header [title]="_strings._EducationTitle_">
-  </section-header>
-  <div class="about-section row">
-    <div class="col-12">
-      <g-experience [title]="_education.title"
-                    [years]="_education.years"
-                    [institution]="_education.institution"
-                    [url]="_education.url"
-                    [text]="_education.text"
-                    [color]="_education.color">
-      </g-experience>
-    </div>
-  </div>
 </div>

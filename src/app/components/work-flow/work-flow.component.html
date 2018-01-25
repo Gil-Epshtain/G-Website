@@ -1,9 +1,17 @@
 <!-- *** Work-Flow *** -->
 <div class="work-flow-container">
-  <div class="work-flow-title">
-    {{ title }}
+
+  <!-- icon -->
+  <div class="work-flow-icon" [ngStyle]="{ 'background-color': color }">
+    <img [src]="icon" class="work-flow-icon-img" />
   </div>
-  <div class="work-flow-text">
-    {{ text }}
+
+  <div class="work-flow-info">
+    <div class="work-flow-title" [ngStyle]="{ 'color': color }">
+      {{ title }}
+    </div>
+    <div class="work-flow-text">
+      {{ text }}
+    </div>
   </div>
 </div>
