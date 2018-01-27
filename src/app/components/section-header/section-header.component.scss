@@ -2,30 +2,29 @@
 
 .section-header-container
 {
-    display: block;
-    position: relative;
-    padding: 50px 55px 5px;
+  display: block;
+  position: relative;
+  padding: 50px 55px 15px;
 
-    .section-header-title-marker
-    {
-        position: absolute;
-        top: 58px;
-        left: 0;
-        width: 49px;
-        height: 43px;
-        
-        background-color: $color-gold;
-    }
+  .section-header-title-marker
+  {
+    background-color: $color-gold;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    width: 49px;
+    height: 43px;    
+  }
 
-    .section-header-title
-    {
-        font-family: Anton;
-        font-size: 50px;
-    }
+  .section-header-title
+  {
+    font-family: Anton;
+    font-size: 50px;
+  }
 
-    .section-header-text
-    {
-        font-family: Acme;
-        font-size: 18px;
-    }
+  .section-header-text
+  {
+    font-family: Acme;
+    font-size: 18px;
+  }
 }

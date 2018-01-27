@@ -10,6 +10,7 @@ $color-orange:      rgb(219, 112, 17);  // "#db7011"
 $color-yellow:      rgb(207, 219, 17);  // "#cfdb11"
 $color-turquoise:   rgb(17, 219, 164);  // "#11dba4"
 $color-pink:        rgb(228, 20, 74);   // "#e4144a"
+$color-purple:      rgb(177, 6, 109);   // "#b1066d"
 
 // Export to JavaScript
 :export {
@@ -23,4 +24,5 @@ $color-pink:        rgb(228, 20, 74);   // "#e4144a"
   colorYellow:      $color-yellow;
   colorTurquoise:   $color-turquoise;
   colorPink:        $color-pink;
+  colorPurple:      $color-purple;
 }

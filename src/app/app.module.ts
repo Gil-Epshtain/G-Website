@@ -9,33 +9,33 @@ import { NgbModule }        from '@ng-bootstrap/ng-bootstrap';
 
 // *** Application ***
 // Modules
-import { AppRoutingModule }         from './app-routing.module';
+import { AppRoutingModule }           from './app-routing.module';
 // Services
-import { StringsService }           from './services/strings/strings.service';
-import { PagesService }             from './services/pages/pages.service';
-import { ContactService }           from './services/contact/contact.service';
+import { StringsService }             from './services/strings/strings.service';
+import { PagesService }               from './services/pages/pages.service';
+import { ContactService }             from './services/contact/contact.service';
 // Directives
-import { PageHostDirective }        from './directives/page-host/page-host.directive';
+import { PageHostDirective }          from './directives/page-host/page-host.directive';
 // Components
-import { AppComponent }             from './components/app-component/app.component';
-import { HeaderComponent }          from './components/header/header.component';
-import { PageComponent }            from './components/page/page.component';
-import { FooterComponent }          from './components/footer/footer.component';
-import { SectionHeaderComponent }   from './components/section-header/section-header.component';
-import { SkillComponent }           from './components/skill/skill.component';
-import { ExperienceComponent }      from './components/experience/experience.component';
-import { WorkFlowComponent }        from './components/work-flow/work-flow.component';
-import { ServiceComponent }         from './components/service/service.component';
-import { HoverIconComponent }       from './components/hover-icon/hover-icon.component';
-import { ContactFormComponent }     from './components/contact-form/contact-form.component';
+import { AppComponent }               from './components/app-component/app.component';
+import { HeaderComponent }            from './components/header/header.component';
+import { PageComponent }              from './components/page/page.component';
+import { FooterComponent }            from './components/footer/footer.component';
+import { SectionHeaderComponent }     from './components/section-header/section-header.component';
+import { SkillComponent }             from './components/skill/skill.component';
+import { ExperienceComponent }        from './components/experience/experience.component';
+import { ServiceComponent }           from './components/service/service.component';
+import { WorkFlowComponent }          from './components/work-flow/work-flow.component';
+import { HoverIconComponent }         from './components/hover-icon/hover-icon.component';
+import { ContactFormComponent }       from './components/contact-form/contact-form.component';
 
 // Application Pages
-import { HomePageComponent }        from './pages/home-page/home-page.component';
-import { AboutPageComponent }       from './pages/about-page/about-page.component';
-import { ExperiencePageComponent }  from './pages/experience-page/experience-page.component';
-import { ProjectsPageComponent }    from './pages/projects-page/projects-page.component';
-import { ServicesPageComponent }    from './pages/services-page/services-page.component';
-import { ContactPageComponent }     from './pages/contact-page/contact-page.component';
+import { HomePageComponent }          from './pages/home-page/home-page.component';
+import { AboutPageComponent }         from './pages/about-page/about-page.component';
+import { ExperiencePageComponent }    from './pages/experience-page/experience-page.component';
+import { ProjectsPageComponent }      from './pages/projects-page/projects-page.component';
+import { ServicesPageComponent }      from './pages/services-page/services-page.component';
+import { ContactPageComponent }       from './pages/contact-page/contact-page.component';
 
 @NgModule({
   // Modules
@@ -68,21 +68,21 @@ import { ContactPageComponent }     from './pages/contact-page/contact-page.comp
     AppComponent, 
     HeaderComponent,
     PageComponent,
-    FooterComponent,
     SectionHeaderComponent,
     SkillComponent,
     ExperienceComponent,
-    WorkFlowComponent,
     ServiceComponent,
+    WorkFlowComponent,
     HoverIconComponent,
     ContactFormComponent,
+    FooterComponent,
     // Pages
     HomePageComponent,
     AboutPageComponent,
+    ExperiencePageComponent,
     ProjectsPageComponent,
     ServicesPageComponent,
     ContactPageComponent,
-    ExperiencePageComponent,
     // fin
   ],
   // Dynamically loaded components

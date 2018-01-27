@@ -4,8 +4,18 @@
                   [text]="_strings._ProjectsText_">
   </section-header>
 
-  <div class="projects-section row">
-    <!-- <div *ngFor="let project of _projects" class="col-md-6">
-
-    </div> -->
-  </div>
+  <!-- Projects Carousel -->
+  <ngb-carousel class="projects-carousel">
+    <ng-template ngbSlide *ngFor="let project of _projects">
+      <img [src]="project.image" class="projects-carousel-img">
+      <div class="carousel-info">
+        <div class="carousel-info-title" [ngStyle]="{ 'color': project.color }">
+          {{ project.title }}
+        </div>
+        <div class="carousel-info-text">
+          {{ project.text }}  
+        </div>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

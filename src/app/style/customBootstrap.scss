@@ -22,3 +22,9 @@
 @include media-breakpoint-up(xl) 
 {    
 }
+
+// Overide Bootstrap's styles
+.carousel-indicators 
+{  
+  top: 390px;
+}

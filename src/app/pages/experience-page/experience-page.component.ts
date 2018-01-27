@@ -76,7 +76,7 @@ export class ExperiencePageComponent implements OnInit, IBasePage
         institution:  this._strings._ExperienceCompany_2_,
         url:          this._strings._ExperienceUrl_2_,
         text:         this._strings._ExperienceText_2_,
-        color:        styleObj.colors.colorOrange
+        color:        styleObj.colors.colorPurple
       },
       {
         title:        this._strings._ExperiencePosition_1_,
@@ -84,7 +84,7 @@ export class ExperiencePageComponent implements OnInit, IBasePage
         institution:  this._strings._ExperienceCompany_1_,
         url:          this._strings._ExperienceUrl_1_,
         text:         this._strings._ExperienceText_1_,
-        color:        styleObj.colors.colorYellow
+        color:        styleObj.colors.colorOrange
       }
     ];
   }

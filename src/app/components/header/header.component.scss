@@ -11,7 +11,7 @@
     z-index: 1;
     width: 100%;
     
-    // animation duration for 'header-black'
+    // animation duration for class 'header-black'
     $background-animation-duration: 1s;
     -webkit-transition: all $background-animation-duration ease; // Safari
     -moz-transition:    all $background-animation-duration ease; // Mozila
@@ -24,17 +24,22 @@
 
         .header-logo
         {
+          margin-right: 40px;
+
+          .header-logo-img
+          {
             width: 90px;
             height: 90px;
+          }
         }
 
         .g-header-navbar-nav
         {
-            padding-left: 40px; 
             font-size: 20px;        
     
             .g-header-nav-item
             {
+              text-align: center;
             }
             
             .g-header-nav-item.active
@@ -43,6 +48,15 @@
                 font-weight: bold;
                 border-bottom: 2px solid $color-light-blue;
             }
+        }
+
+        @media (max-width: 768px) // small screen (mobile)
+        {
+          .g-header-navbar-nav 
+          {
+            background-color: rgba($color-black, 0.9);
+            margin-bottom: 20px;
+          }
         }
     }
 }

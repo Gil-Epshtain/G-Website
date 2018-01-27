@@ -1,5 +1,8 @@
 // Angular
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, AfterViewInit, HostListener } from '@angular/core';
+
+// Lodash
+import * as _ from 'lodash';
 
 // Application
 import { PagesService, IPageItem } from '../../services/pages/pages.service';
@@ -10,25 +13,24 @@ import { StringsService } from './../../services/strings/strings.service';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit
+export class HeaderComponent implements OnInit, AfterViewInit
 {
   private _strings: any;
-
+  
   private _pages: IPageItem[];
-
+  
   private _activePageId: string; 
   private _isHeaderCollapsed: boolean
-
   private _isBackgroundTransparent: boolean
-
-
+  private _isViewRendered: boolean;
 
   public constructor(
     private _stringsService: StringsService,
     private _pagesService: PagesService) 
   {
     console.log("Header.component - ctor");
-
+    
+    this._isViewRendered = false;
     this._isHeaderCollapsed = true
     this._isBackgroundTransparent = true;
   }
@@ -39,23 +41,56 @@ export class HeaderComponent implements OnInit
     this._pages = this._pagesService.getPages();
     this._activePageId = this._pages[0].id;
   }
-
-  private _onClickHeaderItem(pageId: string): void
+  
+  public ngAfterViewInit()
   {
-//    (click)="_onClickHeaderItem(page.id)"
+    _.forEach(this._pages, (page: IPageItem) =>
+    {
+      let pageElement = document.getElementById(page.id);
 
-    console.log(`Header.component - _onClickHeaderItem [pageId: ${pageId}]`);
+      page.data.top = pageElement.offsetTop;
+      page.data.bottom = pageElement.offsetTop + pageElement.offsetHeight;
+    });
 
-    this._activePageId = pageId;
+    this._isViewRendered = true;
+  }
+
+  private _onClickHeaderItem(page: IPageItem): void
+  {
+    console.log(`Header.component - _onClickHeaderItem [pageId: ${ page.id }]`);
+
+    document.documentElement.scrollTop = page.data.top;
+    this._isHeaderCollapsed = true; // close the collapseList
   }
 
   @HostListener("window:scroll", ["$event"])
-  onWindowScroll() 
+  onWindowScroll = _.debounce(() => 
   {
-    //In chrome and some browser scroll is given to body tag
-    let scrollPos = (document.documentElement.scrollTop || document.body.scrollTop);
-    
+    console.log("Header.component - onWindowScroll");
+
+    if (this._isViewRendered)
+    {
+      //In chrome and some browser scroll is given to body tag
+      let scrollPos = (document.documentElement.scrollTop || document.body.scrollTop);
+      
+      this._setHeaderBackgroundByScroll(scrollPos);
+      this._setActiveHeaderItemByScroll(scrollPos);
+    }
+  }, 200); // Listen to Scroll event only once in 200ms
+
+  private _setHeaderBackgroundByScroll(scrollPos: number): void
+  {
     // show background image over header only when scroll top is 0
-    this._isBackgroundTransparent = (scrollPos === 0);    
+    this._isBackgroundTransparent = (scrollPos === 0);
+  }
+
+  private _setActiveHeaderItemByScroll(scrollPos: number): void
+  {
+    let scrolledPage: IPageItem = _.find(this._pages, (page: IPageItem) =>
+    {
+      return (scrollPos < page.data.bottom);
+    });
+
+    this._activePageId = scrolledPage.id;
   }
 }

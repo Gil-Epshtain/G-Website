@@ -2,8 +2,31 @@
 
 .projects-container
 {
-  .projects-section
+  padding-bottom: 20px;
+  
+  .projects-carousel
   {
+    outline: none;
+    text-align: center;
 
+    .projects-carousel-img
+    {
+      height: 400px;
+    }
+
+    .carousel-info
+    {
+      padding: 5px 15px;
+
+      .carousel-info-title
+      {
+        font-size: 22px;
+        font-weight: bold;
+      }
+
+      .carousel-info-text
+      {
+      }
+    }
   }
 }

@@ -13,6 +13,7 @@ export let styleObj =
     colorOrange:      '#db7011',
     colorYellow:      '#cfdb11',
     colorTurquoise:   '#11dba4',
-    colorPink:        '#e4144a'
+    colorPink:        '#e4144a',
+    colorPurple:      '#b1066d',
   }
 };

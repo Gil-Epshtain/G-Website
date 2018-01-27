@@ -13,7 +13,6 @@ const icons =
   design:     "/assets/images/icons/services/design-svg.svg",
   plan:       "/assets/images/icons/services/plan-svg.svg",
   tools:      "/assets/images/icons/services/tools-svg.svg",
-
   research:   "/assets/images/icons/work-flow/research-svg.svg",
   designArc:  "/assets/images/icons/work-flow/design-arc-svg.svg",
   develop:    "/assets/images/icons/work-flow/develop-svg.svg",
@@ -112,13 +111,13 @@ export class ServicesPageComponent implements OnInit, IBasePage
         title: this._strings._WorkProcessTitle_5_,
         text: this._strings._WorkProcessText_5_,
         icon: icons.stabilize,
-        color: styleObj.colors.colorOrange
+        color: styleObj.colors.colorPurple
       },
       {
         title: this._strings._WorkProcessTitle_6_,
         text: this._strings._WorkProcessText_6_,
         icon: icons.delivery,
-        color: styleObj.colors.colorYellow
+        color: styleObj.colors.colorOrange
       }
     ];
   }
